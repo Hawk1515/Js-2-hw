@@ -52,23 +52,41 @@ console.log("javob noto`gri: " +e  +    "     to`gri javob:  " +j5 )
 alert("javob noto`gri" )
 
 }
-var j6 = .1
-var f = +prompt('13%4 =  ' )
-if(j6 === f){
- console.log("javob to`gri: " + f)
- alert("javob to`gri") 
-}else {
-console.log("javob noto`gri: " +f  + " to`gri javob:  " +j6 )
-alert("javob noto`gri" )
-}
-var j7 = .2
-var g = +prompt('10%4 =  ' )
-if(j7 === g){
- console.log("javob to`gri: " + g) 
- alert(" javob to`g`ri ")
-}else {
-console.log("javob noto`gri: " +g   + " to`gri javob:  " +j7 )
-alert(" szning javob to`g`ri ")
 
+var ageA = 18
+var ageB = 50
+var ageD = 59
+var ageE = 150
+
+var name = prompt("Qaytadan ismingizni kiriting")
+console.log(" Sizning ismingiz " + name );
+
+var age = +prompt("Yoshingizni kiriting")
+if(age <= 18) {
+ alert(" Yoshsiz, O`qishingiz kere")
 }
+else if(age <= 50  ) {
+ alert(" ishlashIngiz kere ")
+} else if(age <= 59 ) {
+ alert("Yaqinda pensiyaga chiqasiz :)")
+}
+else if(age <= 150 ) {
+    alert(" pensionerga o`xshaysan xali tirik bo`l`sangiz ")
+}else{
+    alert(" Nimadir no`to`gri ketib koldi ):  ")
+}
+alert("O`rta qiymatni aniqlash uchun son kiriting: ")
+var sonA = +prompt("1- sonni kiriting  ")
+var sonB = +prompt("2- sonni kiriting ")
+var sonD = +prompt("3- sonni kiriting ")
+if(sonA > sonB  && sonA > sonD || sonB > sonA && sonB >sonA) {
+   alert("o`rta qiymat " +sonB)
+}
+else if (sonB > sonA  ) {
+   alert("o`rta qiymat  " +sonB)
+}else if(sonA < sonD || sonB < son) {
+   alert("Nimadir xato ketb qoldi")
+}
+
+
 
